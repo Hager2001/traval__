@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Falocon Adventure</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/image/logo-sticky.png"
+    />
+    <!-- -======= bootstrap ====== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+        <!-- =========== swiper =========== -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      />
+    <!-- -======= style css ====== -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+
+  <!--=================================   Start Navbar    ===================================-->
+  <nav class="nav-bar main-nav-bar">
+    <div class="nav-output">   
+      <div class="bg-gray">
+        <div class="container-fuild d-flex align-items-center justify-content-around ">
+  
+          <div class="single-item d-flex align-items-center justify-content-end">
+            <a href="" class="px-3"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="" class="px-3"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="px-3"><i class="fa-brands fa-skype"></i></a>
+            <a href="" class="px-3"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+  
+          <div class="single-item">
+            <span class="flaticon-call">
+              <i class="fa-solid fa-phone"></i>
+            </span>
+            <p> +(02) 0114-9912-318</p>
+          </div>
+  
+          <div class="single-item">
+            <span class="flaticon-location">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <p> 43 N Area, Ahmed Allam St, Pyramids Garden, Giza, Egypt</p>
+          </div>
+  
+        
+          
+          <div class="single-item">
+            <li class="nav-item navsLink dropdown-li">
+              <a class="nav-link" href="#">
+                English
+                <i class="fa-solid fa-chevron-up"></i>
+              </a>
+              <ul class="dropdown-menu animate__animated animate__fadeIn">
+                <li><a class="dropdown-item" href="#"> English</a></li>    
+              </ul>
+            </li>
+            <li class="nav-item navsLink dropdown-li">
+              <a class="nav-link" href="#">
+              $ US
+                <i class="fa-solid fa-chevron-up"></i>
+              </a>
+              <ul class="dropdown-menu animate__animated animate__fadeIn">
+                <li><a class="dropdown-item" href="#">  $ US</a></li>    
+              </ul>
+            </li>
+          </div>
+  
+          <!-- <div class="single-item">
+           
+  
+          </div> -->
+  
+        
+          <!-- <div class="single-item">
+            <span class="flaticon-call">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <p> My Card (0)</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  
+       <nav class="navbar navbar-expand-lg navbar-light nav-menu-bar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/image/logo-sticky.png" alt="logo-nav">
+          </a>
+          <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+  
+          <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-menu">
+  
+              <li class="nav-item navsLink">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+  
+              <li class="nav-item navsLink dropdown-li">
+                <a class="nav-link" href="#">Tours 
+                  <i class="fa-solid fa-caret-down" style="margin-left: 6px"></i>
+                </a>
+                <ul class="dropdown-menu animate__animated animate__fadeIn">
+                    <li>
+                        <a class="dropdown-item " href="#" style=" color: #4f86c6;">WHAT DO YOU LIKE?</a>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Safari And Desert</a></li>
+                            <li><a  class="dropdown-item"href="#">Historical And Cultural</a></li>
+                            <li><a  class="dropdown-item"href="#">Red Sea Trips</a></li>
+                            <li><a  class="dropdown-item" href="#">Family Tours</a></li>
+                            <li><a  class="dropdown-item" href="#">Scuba Diving Tours</a></li>
+                            <li><a  class="dropdown-item" href="#">Transfers Only Tours</a></li>
+  
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " href="#"style=" color: #4f86c6;" >WHERE DO YOU WANT TO GO?</a>
+                        <ul>
+                            <li><a  class="dropdown-item" href="#">Hurghada</a></li>
+                            <li><a  class="dropdown-item" href="#">Luxor</a></li>
+                            <li><a  class="dropdown-item" href="#">Cairo</a></li>
+          
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </li>
+  
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#">Packages</a>
+              </li>
+  
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#">About</a>
+              </li>
+  
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#"> Blog</a>
+              </li>
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#"> Services</a>
+              </li>
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#"> Contact</a>
+              </li>
+            </ul>
+            <a href="#" class="btn-effect">Inquiry</a>
+          </div> 
+        </div>
+      </nav>
+    </div>
+    </div>
+        </nav>
+  
+  <!--======================================  End Navbar  =========================================-->
+  <!--=================================== header  ============================================-->
+  <section class="main swiper mySwiper">
+    <div class="wrapper swiper-wrapper">
+      <div class="slide swiper-slide">
+        <img src="./assets/image/pexels-andreea-ch-371539-1369212.jpg" alt="" class="image" />
+        <div class="image-data">
+          <!-- <span class="text">Enjoy the finest coffee drinks.</span> -->
+          <h2>
+            Cairo
+          <!-- </h2>
+          <a href="#" class="button">About Us</a> -->
+        </div>
+      </div>
+      <div class="slide swiper-slide">
+        <img src="./assets/image/pexels-hisham-elshazli-2982695-10131669.jpg" alt="" class="image" />
+        <div class="image-data">
+          <!-- <span class="text">We really like what we do.</span> -->
+          <h2>
+            Luxor
+          </h2>
+          <!-- <a href="#" class="button">About Us</a> -->
+        </div>
+      </div>
+      <div class="slide swiper-slide">
+        <img src="./assets/image/pexels-keeper-6322875.jpg" alt="" class="image" />
+        <div class="image-data">
+          <!-- <span class="text">Making Our coffee with lover.</span> -->
+          <h2>
+            Nile Cruises
+          </h2>
+          <!-- <a href="#" class="button">About Us</a> -->
+        </div>
+      </div>
+      <div class="slide swiper-slide">
+        <img src="./assets/image/pexels-mostafa-el-shershaby-2139036-3772630.jpg" alt="" class="image" />
+        <div class="image-data">
+          <!-- <span class="text">Making Our coffee with lover.</span> -->
+          <h2>
+            Hurghada
+          </h2>
+          <!-- <a href="#" class="button">About Us</a> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-button-next nav-btn"></div>
+    <div class="swiper-button-prev nav-btn"></div>
+    <div class="swiper-pagination"></div>
+  </section>
+
+ <!--=================================== header  ============================================-->
+  <!--====================================== header form ==========================================-->
+ <div class="block_search">
+  <div class="container">
+
+   <form method="get" action="#" class="wpte-trip__search-fields ">
+  
+    <div class="wpte-trip__adv-field wpte__select-field ">
+      <select
+            class="form-control fild_search"
+            name="category"
+            id="parent-select-new"
+            data-route="#"
+          >
+            <option value="2">Safari And Desert</option>
+            <option value="4">Historical And Cultural</option>
+            <option value="5">Red Sea Trips</option>
+            <option value="6">Family Tours</option>
+            <option value="8">Transfers Only Tours</option>
+            <option value="7">Scuba Diving Tours</option>
+            <option value="9">Nile Cruises</option>
+            <option value="10">Packages</option>
+          </select>
+    </div>
+    <div class="wpte-trip__adv-field wpte__select-field">
+      <select
+      class="form-control fild_search"
+      name="sub_category"
+      id="sub-select-new"
+    >
+      <option value="1">Nabq bay Sharm El Shiekh</option>
+      <option value="2">Hurghada</option>
+      <option value="3">Luxor</option>
+      <option value="4">Cairo</option>
+    </select>
+    </div>
+    <div class="wpte-trip__adv-field wpte__select-field">
+      <select class="form-control fild_search" name="range">
+        <option value="0">Select Price Range ?</option>
+        <option value="1">Below GBP 500</option>
+        <option value="2">GBP 500 - GBP 1000</option>
+        <option value="3">GBP 1000 - GBP 1500</option>
+        <option value="4">Above GBP 1500</option>
+      </select>
+    </div>
+    <div class="wpte-trip__adv-field wpte__select-field">
+      <select class="form-control fild_search" name="Duration">
+        <option value="0">Select Price Duration ?</option>
+        <option value="1">1 Day</option>
+        <option value="2">2 Day</option>
+        <option value="3">3 Day</option>
+        <option value="4">7 Day</option>
+      </select>
+    </div>
+    <div class="wpte-trip__adv-field wpte__select-field">
+      <button
+      class="btn-theme btn_serach btn-effect "
+      type="submit" >
+      Submit
+    </button>
+    </div>
+   </form>
+
+  </div>
+ </div>
+ <!--====================================== header form ==========================================-->
+ <!--===============================================================
+    start Blogs
+ =====================================================================-->
+
+ <section class="our-blogs position-relative  " id="blogs" >
+  <div class="container">
+     <div class="row"> 
+      <div class="col-xl-12">
+        <div class="section-title-wrapper" style="text-align: center;">
+          <span class="section-subtitle mb-20"
+            >Popular Questions
+            </span
+          >
+          <p class="p__text mb-20">
+            Experience the various exciting tour and travel 
+            packages and Make hotel reservations, find vacation packages, search cheap hotels and events
+      
+          </p>
+        </div>
+      </div>
+         <div class="col-lg-4 col-md-4 mb-4">
+         <div class="trend-item rounded box-shadow">
+         <div class="blog-img">
+             <a href="#"><img src="./assets/image/pexels-andreea-ch-371539-1369212.jpg" alt="blog"></a>
+         </div>
+         <div class="trend-content p-4  position-relative">
+         <h5 class="theme mb-1"><i class="flaticon-location-pin"></i> Cairo</h5>
+         <h3 class="mb-1"><a href=" #">Piazza Castello</a></h3>
+         <div class="rating-main d-flex align-items-center pb-2">
+         <div class="rating">
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         </div>
+         <span class="ms-2">(12)</span>
+         </div>
+         <p class=" border-b "></p>
+         <div class="entry-meta">
+         <div class="entry-author d-flex align-items-center">
+         <p class="mb-0"><span class="theme fw-bold fs-5"> $170.00</span> | Per person</p>
+         </div>
+         </div>
+         </div>
+         </div>
+         </div>
+         <div class="col-lg-4 col-md-4 mb-4">
+         <div class="trend-item box-shadow rounded">
+             <div class="blog-img">
+                 <a href="#"><img src="./assets/image/pexels-hisham-elshazli-2982695-10131669.jpg" alt="blog"></a>
+             </div>
+         <div class="trend-content p-4  position-relative">
+         <!-- <div class="trend-meta bg-theme white px-3 py-2 rounded">
+         <div class="entry-author">
+         <i class="icon-calendar"></i>
+         <span class="fw-bold"> 9 Days Tours</span>
+         </div>
+         </div> -->
+         <h5 class="theme mb-1"><i class="flaticon-location-pin"></i> Aswan</h5>
+         <h3 class="mb-1"><a href=" #">Family Tours</a></h3>
+         <div class="rating-main d-flex align-items-center pb-2">
+         <div class="rating">
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         </div>
+         <span class="ms-2">(38)</span>
+         </div>
+         <p class=" border-b "></p>
+         <div class="entry-meta">
+         <div class="entry-author d-flex align-items-center">
+         <p class="mb-0"><span class="theme fw-bold fs-5"> $180.00</span> | Per person</p>
+         </div>
+         </div>
+         </div>
+         </div>
+         </div>
+         <div class="col-lg-4 col-md-4 mb-4">
+         <div class="trend-item box-shadow rounded">
+             <div class="blog-img">
+                 <a href="#"><img src="./assets/image/photo-1684100096410-fd39cdff91a3.avif" alt="blog"></a>
+             </div>
+         <div class="trend-content p-4  position-relative">
+         <!-- <div class="trend-meta bg-theme white px-3 py-2 rounded">
+         <div class="entry-author">
+         <i class="icon-calendar"></i>
+         <span class="fw-bold"> 9 Days Tours</span>
+         </div>
+         </div> -->
+         <h5 class="theme mb-1"><i class="flaticon-location-pin"></i> Luxor</h5>
+         <h3 class="mb-1"><a href=" #">  Transfers Only Tours</a></h3>
+         <div class="rating-main d-flex align-items-center pb-2">
+         <div class="rating">
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         </div>
+         <span class="ms-2">(18)</span>
+         </div>
+         <p class=" border-b "></p>
+         <div class="entry-meta">
+         <div class="entry-author d-flex align-items-center">
+         <p class="mb-0"><span class="theme fw-bold fs-5"> $260.00</span> | Per person</p>
+         </div>
+         </div>
+         </div>
+         </div>
+         </div>
+         </div>
+  </div>
+  <!-- Container -->
+ </section> 
+ 
+ <!--===============================================================
+                   End  blogs
+ =====================================================================-->
+
+  <!-- ================================== Why Choose ================================================== -->
+
+  <section class="bd-chosse-area ">
+    <div class="container">
+            <div class="why">
+              <div class="row gy-24 align-items-center justify-content-between">
+                <div class="col-xxl-7 col-xl-6 col-lg-6 col-md-12">
+                  <div class="section-title-wrapper section-title-space">
+                    <span class="section-subtitle mb-10"
+                      >Why Choose Falcon Adventure?</span
+                    >
+                    <h2 class="section-title mb-20">
+                      We are Discovering the Tour With Excitement
+                    </h2>
+                    <p>
+                      We do our best to make sure that you will get the best Egypt
+                      tour and excursions, check out what they say about us.
+                    </p>
+                  </div>
+                  <div class="choose-list-box">
+                    <ul class="why__list">
+                       <!-- <li
+                        class="underline ">
+                        <span>
+                          <img src="./assets/image/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg" style=" width: 39%;">
+                        </span>
+                        <a
+                          href="https://www.tripadvisor.com/Attraction_Review-g297555-d1877630-Reviews-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html"
+                          target="_blank"
+                          >Falcon Adventure</a
+                        >
+                        <div>
+                          <p class="widSSPH11">Tripadvisor Traveler Rating</p>
+                          <p>3,058 reviews</p>
+                        </div>
+                        <p>Tripadvisor Ranking</p>
+                        <h6>#15 of 370 Boat Tours & Water Sports in Sharm El Sheikh</h6>
+                        <div>
+                          <a href="https://www.tripadvisor.com/UserReview-g297555-d1877630-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html" >Write a review</a
+                        >|
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g297555-d1877630-Reviews-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html">Read reviews</a>
+                        </div>
+                       
+                        
+                      </li>  -->
+                       <li
+                      class="underline ">
+                      <span>
+                        <img src="./assets/image/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg" style=" width: 39%;">
+                      </span>
+                      <a
+                        href="https://www.tripadvisor.com/Attraction_Review-g297555-d1877630-Reviews-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html"
+                        target="_blank"
+                        >Falcon Adventure</a
+                      >
+                      <div>
+                        <p class="widSSPH11">Tripadvisor Traveler Rating</p>
+                        <p>3,058 reviews</p>
+                      </div>
+                      <p>Tripadvisor Ranking</p>
+                      <h6> #17 of 1,114 Outdoor Activities in Hurghada</h6>
+                      <div>
+                        <a href="https://www.tripadvisor.com/UserReview-g297555-d1877630-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html" >Write a review</a
+                      >|
+                      <a href="https://www.tripadvisor.com/Attraction_Review-g297555-d1877630-Reviews-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html">Read reviews</a>
+                      </div>
+                     
+                      
+                    </li>
+                    <li
+                    class="underline ">
+                    <span>
+                      <img src="./assets/image/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg" style=" width: 39%;">
+                    </span>
+                    <a
+                    href="https://www.tripadvisor.com/Attraction_Review-g294202-d13813341-Reviews-Falcon_Adventure-Giza_Giza_Governorate.html"
+                      target="_blank"
+                      >Falcon Adventure</a
+                    >
+                    <div>
+                      <p class="widSSPH11">Tripadvisor Traveler Rating</p>
+                      <p>3,058 reviews</p>
+                    </div>
+                    <p>Tripadvisor Ranking</p>
+                    <h6>#58 of 249 Outdoor Activities in Giza</h6>
+                    <div>
+                      <a href="https://www.tripadvisor.com/UserReview-g297555-d1877630-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html" >Write a review</a
+                    >|
+                    <a href="https://www.tripadvisor.com/Attraction_Review-g297555-d1877630-Reviews-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html">Read reviews</a>
+                    </div>
+                   
+                    
+                  </li>
+          
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-12">
+                  <div class="choose-thumb-wrapper p-relative">
+                    <div
+                      class="choose-thumb-main "
+                      data-wow-delay=".3s"
+                      style="
+                        visibility: visible;
+                        position: relative;
+                        ;
+                      "
+                    >
+                      <div class="hover-effect">
+                        <img src="./assets/image/imagination1.png" alt="image" />
+                      </div>
+                    </div>
+                    <div
+                      class="choose-thumb-bordered"
+                      data-wow-delay=".3s"
+                      style="
+                        visibility: visible;
+                        animation-delay: 0.3s;
+                        animation-name: bdFadeInRight;
+                      "
+                    >
+                      <img src="./assets/image/caption.jpg" alt="image" />
+      
+                      <div class="pos-center">
+                        <a
+                          class="bd-play-btn small white-bg popup-video animation-three"
+                          href="https://youtu.be/qLh8NAvemF4?si=rx6G03m2-3wr5dMg"
+                          ><i class="fa-brands fa-youtube"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+    </section> 
+ <!-- -===================================================================================-->
+
+
+<!-- ==========================================   Good Reasons ===================================  -->
+
+<div class="container-fluid feature bg-light ">
+  <div class="container py-5">
+      <div class="text-center mx-auto pb-5"  style="max-width: 800px; visibility: visible; ">
+          <h4 class="text-primary">Why choose us</h4>
+          <h2 class="display-4 mb-4">Some Good Reasons</h2>
+          <p class="mb-0">
+            Experience the various exciting tour and travel packages and Make hotel reservations, 
+            find vacation packages, search cheap hotels and events   
+           </p>
+      </div>
+      <div class="row g-4">
+          <div class="col-md-6 col-lg-6 col-xl-3 "  style="visibility: visible; ">
+              <div class="feature-item p-4 pt-0">
+                  <div class="feature-icon p-4 mb-4">
+                    <i class="fa-solid fa-plane-departure fa-3x"></i>
+                   
+                  </div>
+                  <h4 class="mb-4">PRIVATE AIRPORT TRANSFERS</h4>
+                  <p class="mb-4">
+                    After your flight to Egypt, you just want to get to your hotel transfer as soon as possible to start your holiday.
+                  </p>
+                  <br>
+                  
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3 "  style="visibility: visible; ">
+              <div class="feature-item p-4 pt-0">
+                  <div class="feature-icon p-4 mb-4">
+                    <i class="fa-solid fa-wifi fa-3x"></i>
+                   
+                  </div>
+                  <h4 class="mb-4">PORTABLE WIFI FOR RENT</h4>
+                  <p class="mb-4">
+                    The quick and easy way to connect to the hotel while on holiday in Sharm El 
+                    Sheikh & hurghada to stay in touch with friends, family and work 24/7.
+                  </p>
+                
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3 "  style="visibility: visible; ">
+              <div class="feature-item p-4 pt-0">
+                  <div class="feature-icon p-4 mb-4">
+                    <i class="fa-solid fa-person-swimming fa-3x"></i> 
+                    
+                  </div>
+                  <h4 class="mb-4">SCUBA DIVING COURSES</h4>
+                  <p class="mb-4">
+                    We offer great value for money. we do our best to make sure that you will get unforgettable tour                    </p>
+                  <br>
+                  
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3 "  style="visibility: visible; ">
+              <div class="feature-item p-4 pt-0">
+                  <div class="feature-icon p-4 mb-4">
+                    <i class="far fa-handshake fa-3x"></i>
+                
+                  </div>
+                  <h4 class="mb-4">Safety and Security</h4>
+                  <p class="mb-4">
+                    Benefit from enhanced safety measures, emergency support, and assistance in case of circumstances during your travels                    </p>
+                  <br>
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+</div> 
+
+<!-- ==========================================Good Reasons  ===================================  -->
+<!--======================================== gallery ===================================================-->
+<section class="gallery ">
+  <div class="container">
+  <h2 class="title">Travel the Wonderful Landscapes</h2>
+  <div class="gallery-box">
+    <div class="gallery__item">
+      <img src="./assets/image/pexels-andreea-ch-371539-1369212.jpg" alt="Photo Gallery">
+      <h3>Cairo</h3>
+    </div>
+    <div class="gallery__item">
+      <img src="./assets/image/pexels-mostafa-el-shershaby-2139036-3772630.jpg" alt="Photo Gallery">
+      <h3> Luxor
+      </h3>
+    </div>
+    <div class="gallery__item">
+      <img src="./assets/image/pexels-spencer-4388159.jpg" alt="Photo Gallery">
+      <h3>Hurghada</h3>
+    </div>
+    <div class="gallery__item">
+      <img src="./assets/image/pexels-hisham-elshazli-2982695-10131669.jpg" alt="Photo Gallery">
+      <h3> Safari And Desert</h3>
+    </div>
+    <div class="gallery__item">
+      <img src="./assets/image/pexels-keeper-6322875.jpg" alt="Photo Gallery">
+      <h3>  Red Sea Trips</h3>
+    </div>
+    <div class="gallery__item">
+      <img src="./assets/image/photo-1684100096410-fd39cdff91a3.avif" alt="Photo Gallery">
+      <h3> Family Tours</h3>
+    </div>
+  </div>
+  </div> 
+  </section> 
+  
+  
+  <!--===========================================================================================-->
+
+<!--===================================start Blogs  ========================================-->
+<section class="our-blogs position-relative " id="blogs" >
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="section-title-wrapper" style="text-align: center;">
+          <span class="section-subtitle mb-20"
+            >Popular Questions
+            </span
+          >
+          <p class="p__text mb-20">
+            Experience the various exciting tour and travel 
+            packages and Make hotel reservations, find vacation packages, search cheap hotels and events
+      
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="blog-item">
+          <div class="blog-img">
+            <a href="#"><img src="./assets/image/pexels-hisham-elshazli-2982695-10131669.jpg" alt="blog"></a>
+          </div>
+          <div class="blog-info">
+            <div class="blog-meta-box mb-20 d-flex align-items-center">
+              <div class="it-blog-meta">
+                   <span>
+                     <i class="fa-solid fa-user"></i></i>
+                     Mirna
+                   </span>
+              </div>
+              <div class="blog-meta-item mb-15">
+               <span class="meta-icon">
+                 <i class="fa-solid fa-calendar-days"></i>
+               </span>
+               <span class="meta-text"><a href="#">January 25 2024</a></span>
+             </div>
+            </div>
+            <div class="title-post">
+              <a href="#">
+                <h5>
+                 Luxor Attractions
+                </h5>
+              </a>
+            </div>
+           <p>Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events</p>
+ 
+            <div class="blogs-btn">
+              <a class="">Explore More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="blog-item">
+          <div class="blog-img">
+            <a href="#"><img src="./assets/image/photo-1684100096410-fd39cdff91a3.avif" alt="blog"></a>
+          </div>
+ 
+          <div class="blog-info">
+            <div class="blog-meta-box mb-20 d-flex align-items-center">
+              <div class="it-blog-meta">
+                   <span>
+                     <i class="fa-solid fa-user"></i></i>
+                     Mirna
+                   </span>
+              </div>
+              <div class="blog-meta-item mb-15">
+               <span class="meta-icon">
+                 <i class="fa-solid fa-calendar-days"></i>
+               </span>
+               <span class="meta-text"><a href="#">January 25 2024</a></span>
+             </div>
+            </div>
+ 
+            <div class="title-post">
+              <a href="#">
+                <h5>Aswan Attractions</h5>
+              </a>
+            </div>
+           <p>Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events</p>
+ 
+            <div class="blogs-btn">
+              <a class="">Explore More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="blog-item">
+          <div class="blog-img">
+            <a href="#"><img src="./assets/image/pexels-keeper-6322875.jpg" alt="blog"></a>
+          </div>
+          <div class="blog-info">
+            <div class="blog-meta-box mb-20 d-flex align-items-center">
+              <div class="it-blog-meta">
+                   <span>
+                     <i class="fa-solid fa-user"></i></i>
+                      Maher
+                   </span>
+              </div>
+ 
+              <div class="blog-meta-item mb-15">
+               <span class="meta-icon">
+                 <i class="fa-solid fa-calendar-days"></i>
+               </span>
+               <span class="meta-text"><a href="#">January 25 2024</a></span>
+             </div>            </div>
+ 
+            <div class="title-post">
+              <a href="#">
+                <h5>
+                 Luxor Attractions
+                </h5>
+              </a>
+            </div>
+           <p>Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events</p>
+ 
+            <div class="blogs-btn">
+              <a class="">Explore More</a>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </div>
+  </div>
+ </section>
+ 
+ <!--==========================  End  blogs ========================================-->
+
+ <!-- ===================================== offer =============================================== -->
+
+ <section class="bd-offer-area section--space" id="offer">
+  <div class="container">
+    <div class="row gy-24">
+      <div class="col-xxl-6 col-xl-6 col-xl-6 col-lg-6 col-md-12 " style="visibility: visible; animation-name: bdFadeInLeft">
+        <div class="offer-wrapper offer-style-four theme-bg">
+          <div class="offer-content-wrapper" style="z-index: 2;">
+            <div class="offer-content mb-25">
+              <h2 class="section-title white-text mb-24">
+                Special 30% off
+              </h2>
+         
+              <p class="mb-20">
+                Share the core values and principles that drive your
+                company. Emphasize a commitment to custome.
+              </p>
+            </div>
+            <div class="offer-btn">
+              <a href="#" class="bd-primary-btn btn-style has-arrow is-bg btn-tertiary is-white radius-60">
+                <span class="bd-primary-btn-text">Know More</span>
+                 </a>
+            </div>
+          </div>
+          <div class="offer-image">
+            <img src="./assets/image/offer-img-4.png" alt="image">
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-6 col-xl-6 col-xl-6 col-lg-6 col-md-12 " style="visibility: visible; animation-name: bdFadeInRight">
+        <div class="offer-wrapper offer-style-four warning-bg">
+          <div class="offer-content-wrapper" style="z-index: 2;">
+            <div class="offer-content mb-25">
+              <h2 class="section-title white-text mb-24">Get 20% off</h2>
+              <p class="mb-20">  Share the core values and principles that drive your
+                company. Emphasize a commitment to custome.</p>
+            </div>
+            <div class="offer-btn">
+              <a href="#" class="bd-primary-btn btn-style has-arrow is-bg is-white radius-60">
+                <span class="bd-primary-btn-text">Know More</span>
+                </a>
+            </div>
+          </div>
+          <div class="offer-image">
+            <img src="./assets/image/offer-img-5.png" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+<!-- ===================================== offer =============================================== -->
+
+
+  <!--============================ FAQ ================================================-->
+<section class="faq clear-fix  ">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="section-title-wrapper" style="text-align: center;">
+          <span class="section-subtitle mb-20"
+            >Popular Questions
+            </span
+          >
+          <p class="p__text mb-24">
+            Experience the various exciting tour and travel 
+            packages and Make hotel reservations, find vacation packages, search cheap hotels and events
+      
+          </p>
+        </div>
+      </div>
+      
+      <div class="col-lg-6">
+        <div class="accordion">
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="true"><span class="accordion-title">
+              How can I contact Falcon Adventure to book a tour?
+            </span><span class="icon" aria-hidden="true"><i
+                  class="fa-solid fa-chevron-right"></i></span></button>
+            <div class="accordion-content">
+              <p>
+                
+                You can either contact us via email or our Facebook page to book your tours.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">
+              Is there an age limit on claiming my child as a dependent?
+            </span><span class="icon" aria-hidden="true"><i
+                  class="fa-solid fa-chevron-right"></i></span></button>
+            <div class="accordion-content">
+              <p>To claim your child as your dependent, your child must meet either the qualifying child test or the qualifying relative test:
+
+                To meet the qualifying child test, your child must be younger than you and either younger than 19 years old or be a "student" younger than 24 years old as of the end of the calendar year.
+                There's no age limit if your child is "permanently and totally disabled" or meets the qualifying relative test.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Why book on line?</span><span class="icon" aria-hidden="true"><i
+                  class="fa-solid fa-chevron-right"></i></span></button>
+            <div class="accordion-content">
+              <p>Booking online means your spaces for the trips will be reserved and organized, previous to your arrival.
+
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How do I receive my tour vouchers?</span><span class="icon" aria-hidden="true"><i
+                  class="fa-solid fa-chevron-right"></i></span></button>
+            <div class="accordion-content">
+              You can either receive your tour voucher via email , or one of our reps can deliver them personally to your hotel.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="accordion">
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="true"><span class="accordion-title">
+              Do the tours include transfers from my Hotel?
+            </span><span class="icon" aria-hidden="true"><i
+                  class="fa-solid fa-chevron-right"></i></span></button>
+            <div class="accordion-content">
+              <p>All trips include collection and return to your hotel in an air conditioned vehicle.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">
+              What if I want to change the day or date of a tour I have booked?</span><span class="icon" aria-hidden="true"><i
+                  class="fa-solid fa-chevron-right"></i></span></button>
+            <div class="accordion-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse
+                potenti.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we ever discover
+                aliens?</span><span class="icon" aria-hidden="true"><i
+                  class="fa-solid fa-chevron-right"></i></span></button>
+            <div class="accordion-content">
+              <p>The dates can be changed easily for local trips, as long as plenty of notice has been given. Any tours which include flights tickets cannot be changed.
+
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Why book with Falcon Adventure?</span><span class="icon" aria-hidden="true"><i
+                  class="fa-solid fa-chevron-right"></i></span></button>
+            <div class="accordion-content">
+              <p>When booking with Falcon Adventure, you will receive a personalized service from our professional and enthusiastic team. Our aim is to make sure all aspects of your trips are enjoyed. We have a mixture of British and Egyptian management which is the perfect cocktail to ensure great customer service.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--============================ FAQ ================================================-->
+
+<!-- -===================================================================================-->
+
+<section class="theme-bg  p-relative section-space ">
+    <div class="cta-shape-bg image-bg"></div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-6 col-lg-4 order-lg-0 order-1"
+          style="visibility: visible"
+        >
+         
+          </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 order-lg-1 order-0">
+          <div class="cta-wrapper cta-style-two">
+            <div class="section-title-wrapper mb-20">
+              <h2 class="section-title small white-text mb-20">
+                HURGHADA TOP ACTIVITIES
+              </h2>
+              <p class="white-text mb-20">
+                Book now your Hurghada excursions and check out our top
+                activities and things to do in Hurghada Red Sea Egypt
+              </p>
+            </div>
+            <div class="cta-btn">
+              <a
+                href="#"
+                class="bd-primary-btn btn-style has-arrow is-bg btn-tertiary is-white radius-60 btn-effect"
+              >
+                <span class="bd-primary-btn-text">READ MORE</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+  <!-- ========================================================================= -->
+      <!--========================================  Start Footer ====================================-->
+                 <footer class="footer">
+                  <div class="overlay"></div>
+                  <div class="container">
+                    <div class="row footer-row">
+                      <div class="col-sm-6 col-lg-3 mb-30">
+              
+                        <div class="footer-widget">
+                          <div class="footer-logo">
+                            <img src="./assets/image/logo-sticky.png" />
+                          </div>
+              
+                          <p class="mb-30 mt-30">
+                              FALCON ADVENTURE Is An Established Fully Insured And Licensed Company That Has Continued To Grow Over The Last 12
+                          </p>
+              
+                          <div class="contact-info">
+                            <div class="single-contact mb-0">
+                              <div class="info-cont">
+                                <!-- List Icons Social Media-->
+                                <ul class="social-media">
+                                  <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                  <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                                  <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                                  <li><a href="#" class="instagram"><i class="fa-brands fa-linkedin-in"></i></a></li>
+  
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+              
+              
+                        </div>
+                      </div>
+              
+              
+              
+                      <div class="col-6 col-sm-6 col-lg-3 mb-30">
+                                   
+  <!--    Transfers Only Tours -->
+                        <div class="footer-widget">
+                          <h4>CATEGORIES</h4>
+              
+                          <div class="line-footer"></div>
+                          <div class="row">
+                            <div class="col">
+                              <ul class="footer-link mb-0">
+                                <li>
+                                  <a href="#">
+                                    <span><i class="fas fa-caret-right"></i></span>Safari And Desert
+                                  </a>
+                                </li>
+              
+                                <li>
+                                  <a href="#">
+                                    <span><i class="fas fa-caret-right"></i></span> Historical And Cultural
+                                  </a>
+                                </li>
+              
+                                <li>
+                                  <a href="#">
+                                    <span><i class="fas fa-caret-right"></i></span> Red Sea Trips
+                                  </a>
+                                </li>
+              
+                                <li>
+                                  <a href="#">
+                                    <span><i class="fas fa-caret-right"></i></span> Family Tours
+                                  </a>
+                                </li>
+              
+                                <li>
+                                  <a href="#"">
+                                    <span><i class="fas fa-caret-right"></i></span> Scuba Diving Tours
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+              
+              
+              
+              
+                          </div>
+              
+              
+              
+              
+                        </div>
+                      </div>
+              
+              
+                      <div class="col-6 col-sm-6 col-lg-3 mb-30">                     
+  
+                        <div class="footer-widget mb-0">
+                          <h4>GENERAL</h4>
+                          <div class="line-footer"></div>
+                          <div class="row">
+                            <div class="col">
+                              <ul class="footer-link mb-0">
+                                <li>
+                                  <a href="#">
+                                    <span><i class="fas fa-caret-right"></i></span> About Us
+                                  </a>
+                                </li>
+              
+                                <li>
+                                  <a href="#">
+                                    <span><i class="fas fa-caret-right"></i></span>  Contact
+                                  </a>
+                                </li>
+              
+                                <li>
+                                  <a href="#">
+                                    <span><i class="fas fa-caret-right"></i></span>   FAQ
+                                  </a>
+                                </li>
+              
+                                <li>
+                                  <a href="#">
+                                    <span><i class="fas fa-caret-right"></i></span>  Blog
+                                  </a>
+                                </li>
+              
+                                <li>
+                                  <a href="#">
+                                    <span><i class="fas fa-caret-right"></i></span>  Favourites
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+              
+              
+              
+              
+                          </div>
+                        </div>
+                      </div>
+              
+              
+              
+              
+                      <div class="col-sm-6 col-lg-3">
+                        <div class="footer-widget">
+                          <h4>QUICK CONTACT</h4>
+                           <div class="line-footer"></div>
+                          <div class="row">
+                              <div class="col">
+                                <ul class="footer-link mb-0">
+                                  <li>
+                                    <a href="#">
+                                      <span><i class="fa-solid fa-phone"></i></span> Phone: +201117670277
+                                    </a>
+                                  </li>
+                
+                                  <li>
+                                    <a href="#">
+                                      <span><i class="fa-solid fa-phone"></i></span> Mobile: +201117670277
+                                    </a>
+                                  </li>
+                
+                                  <li>
+                                    <a href="#">
+                                      <span><i class="fas fa-caret-right"></i></span> Fax:
+                                    </a>
+                                  </li>
+                
+                                  <li>
+                                    <a href="#">
+                                      <span><i class="fa-solid fa-envelope"></i> </i></span> Email:
+                                      Falconadventure825@Gmail.Com
+                                    </a>
+                                  </li>
+                
+                                  <li>
+                                    <a href="#">
+                                      <span><i class="fa-brands fa-amazon-pay"></i></span> Secure payments with
+                                      <img src="./assets/image/payment-cards.png" alt="" class="logo" />
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                      </div>
+                      </div>
+              
+                  </div>
+              
+                  <div class="footer-bar">
+                    <div class="container">
+                      <div class="footer-copy">
+              
+                        <!-- Copyright By Me NourEgy  -->
+                        <div class="copyright">
+                          Copyright © 2024 <a href="https://www.seoera.net/" target="_blank">SeoEra</a> All Right Reserved
+              
+                        </div>
+              
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+             
+                </footer>
+      <!--========================================  End Footer ===============================================-->
+  
+    <!-- =================================== js ======================= -->
+    <!-- -================================ bootstrap ===================== -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!-- All Plugins -->
+   <!-- ================================== jquery ======================= -->
+
+   <script
+   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+ ></script>
+    <!-- =================================== js ======================= -->
+    <script src="./assets/js/faq.js"></script>
+
+    <script src="./assets/js/maine.js"></script>
+  </body>
+</html>
